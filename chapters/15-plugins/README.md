@@ -131,7 +131,7 @@ claude --plugin-dir .\my-plugin
 
 ### 5. 自作マーケットプレイスで配る
 
-マーケットプレイスは、**プラグインのカタログ**です。GitHub リポジトリに `.claude-plugin/marketplace.json` を置けば、自分の配布所になります。
+マーケットプレイスは、**プラグインのカタログ**です。GitHub リポジトリに `.claude-plugin/marketplace.json` を置けば、<mark>**自分の配布所になります**</mark>。
 
 ```
 （利用する人の手元で）
@@ -159,6 +159,7 @@ claude --plugin-dir .\my-plugin
 - **MCP 同梱時の PATH**: `python`/`node` は絶対パスで。`/plugin` の Errors タブで「実行ファイルが見つからない」を確認できる
 - **配布時の相対パス**: 生 JSON の URL 直指定だと相対パスが解けない。Git ホスト推奨
 - **変更が反映されない**: セッション中に直したら再読み込み（`/reload-plugins` 等、版による）
+- **秘密情報の同梱**: プラグインに API キーやトークンを含めない（配布するとそのまま流出する）。秘密は利用者側の環境変数・設定で渡す
 
 ## 公式ドキュメント
 
