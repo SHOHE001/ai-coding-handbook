@@ -1,0 +1,12 @@
+# Claude Code のローカル個人設定（共有しない）
+.claude/settings.local.json
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
+
+# 一時ファイル・ログ
+*.log
+*.tmp
