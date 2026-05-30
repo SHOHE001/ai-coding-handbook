@@ -180,3 +180,7 @@ claude --plugin-dir .\my-plugin
 | **名前空間** | `/プラグイン名:skill` の呼び出し形 | `/my-plugin:hello` |
 | **マーケットプレイス** | プラグインのカタログ（GitHub） | `/plugin marketplace add owner/repo` |
 | **`--plugin-dir`** | 開発中プラグインをローカルで試す | `claude --plugin-dir .\my-plugin` |
+
+---
+
+◀ [第9章: 自動化](../09-automation/README.md) ｜ [📖 目次](../../README.md) ｜ [第16章: MCPサーバーを自作する](../16-mcp-server/README.md) ▶

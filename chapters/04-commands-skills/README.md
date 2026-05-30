@@ -176,3 +176,7 @@ description: |
 | **スキル / SKILL.md** | 手順＋付属ファイルをまとめた能力 | `/save`（保存を全自動化） |
 | **description** | Claude が「使うべき」と判断する手がかり | トリガー語を列挙して自動発動させる |
 | **コマンド↔スキルの使い分け** | 短い定型はコマンド、まとまった能力はスキル | 短文は `/commit`、判断込みは `/save` |
+
+---
+
+◀ [第3章: 権限と settings.json](../03-permissions/README.md) ｜ [📖 目次](../../README.md) ｜ [第5章: サブエージェント](../05-subagents/README.md) ▶

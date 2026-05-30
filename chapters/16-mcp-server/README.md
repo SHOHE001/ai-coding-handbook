@@ -134,3 +134,7 @@ claude mcp add --transport stdio my-tools -- python "C:\path\to\server.py"
 | **stdio トランスポート** | 標準入出力で通信する方式 | 手元でサーバーを起動 |
 | **stdout を汚さない** | ログは stderr へ（最重要の鉄則） | `print()` 厳禁 |
 | **mcp-builder** | MCP 作成を手伝う skill | 骨組みを生成させる |
+
+---
+
+◀ [第15章: プラグイン化・マーケットプレイス](../15-plugins/README.md) ｜ [📖 目次](../../README.md) ｜ [第17章: Agent SDK](../17-agent-sdk/README.md) ▶

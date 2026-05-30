@@ -119,3 +119,7 @@ $data = $input | ConvertFrom-Json
 | **テーマ・設定** | 配色・言語などの好み | dark / japanese |
 | **演出は継続の燃料** | 好きな手触りは使い続けられる | MAGI のエヴァ演出 |
 | **やりすぎない** | 実用を損なわない範囲で | 重い・奇抜すぎる演出を避ける |
+
+---
+
+◀ [第17章: Agent SDK](../17-agent-sdk/README.md) ｜ [📖 目次](../../README.md)

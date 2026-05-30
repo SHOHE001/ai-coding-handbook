@@ -141,3 +141,7 @@ Notion・Slack など外部サービスを操作したい
 | **MCP** | 外部サービスへ手足を伸ばす仕組み | Notion・Slack・Gmail 連携 |
 | **権限（permissions）** | 自動実行の安全範囲を決める設定 | settings.json の allow / deny / ask |
 | **常駐 / 都度** | 黙っていても効くか、呼んだときだけ効くか | CLAUDE.md は常駐、/zenn-log は都度 |
+
+---
+
+[📖 目次](../../README.md) ｜ [第1章: 土台](../01-basics/README.md) ▶

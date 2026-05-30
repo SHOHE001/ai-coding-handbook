@@ -220,3 +220,7 @@ exit 0
 | **matcher** | どのツールを対象にするか絞る指定 | `"Edit|Write"` |
 | **exit 2** | フックでブロックを返す終了コード | `rm -rf` を止める |
 | **stdin の JSON** | フックに渡る「何が呼ばれたか」の情報 | `tool_name`・`tool_input` を見て判定 |
+
+---
+
+◀ [第5章: サブエージェント](../05-subagents/README.md) ｜ [📖 目次](../../README.md) ｜ [第7章: MCP・外部連携](../07-mcp/README.md) ▶
